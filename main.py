@@ -2,8 +2,8 @@ import os
 import requests
 from telegram import Bot
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
+BOT_TOKEN = os.environ.get("8251923975:AAGtM7-fQT3Vakdbqj4SC3CiEWdIFbECCzc")
+CHAT_ID = os.environ.get("1445775903")
 
 bot = Bot(token=BOT_TOKEN)
 seen_titles = set()
@@ -32,3 +32,4 @@ send_test_message()
 
 # Binance duyurularını kontrol et
 check_binance()
+
